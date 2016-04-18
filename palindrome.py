@@ -64,6 +64,7 @@ if __name__ == "__main__":
         palindrome = input()
         if not valida_entrada(palindrome):
             print('Entrada nao valida')
+            continue
 
         palindrome = list(palindrome)
         size_list = len(palindrome)
